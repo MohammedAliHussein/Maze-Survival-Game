@@ -1,0 +1,10 @@
+gcc -c main.c -Wall -pedantic -ansi 
+gcc -c terminal.c -Wall -pedantic -ansi 
+gcc -c mazeSetup.c -Wall -pedantic -ansi 
+gcc -c updateMaze.c -Wall -pedantic -ansi 
+gcc -c freeMemory.c -Wall -pedantic -ansi 
+gcc -c renderMaze.c -Wall -pedantic -ansi 
+gcc -c fileIO.c -Wall -pedantic -ansi 
+gcc -c snakeMovement.c -Wall -pedantic -ansi 
+gcc -c LinkedList.c -Wall -pedantic -ansi 
+gcc main.o terminal.o mazeSetup.o updateMaze.o freeMemory.o renderMaze.o fileIO.o snakeMovement.o LinkedList.o -o maze
